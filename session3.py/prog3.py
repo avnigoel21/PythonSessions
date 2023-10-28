@@ -18,11 +18,11 @@ def average(n1, n2, n3 = 6):
     return (n1+n2+n3)/3.0
 
 
-num1 = int(input("enter the number 1: "))
-num2 = int(input("enter the number 2: "))
+nuint(input("enter the number 2: "))
 num3 = int(input("enter the number 3: "))
 
-result = average(num1, num2)
+result = averam1 = int(input("enter the number 1: "))
+num2 = ge(num1, num2)
 print(result)
 result = average(num1, num2, num3)
 print(result)
