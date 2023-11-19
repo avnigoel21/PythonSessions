@@ -16,13 +16,18 @@
 
 # list slicing
 
-# friends = ["Harry" , "Tom" , "Rohan" , "Sam"]
+friends = ["Harry" , "Tom" , "Rohan" , "Sam"]
+
+# print(type(friends))
+
+# friend = 5
+# print(type(friend))
 
 
-
-# print(friends[0: : 2])
+# print(friends[::])
 
 
 # Write a program to store five fruits in a list entered by the user.
 
 # write a program to accept marks of 4 students and display them in a sorted manner
+
