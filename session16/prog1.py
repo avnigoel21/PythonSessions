@@ -43,10 +43,13 @@ keys = ["name", "salary" , "age" ]
 # output2 = sampleDict["salary"]
 
 
-newDict = {}
-for k in keys:
-   newDict[k] = sampleDict[k]
-print(newDict)
+# newDict = {}
+# for k in keys:
+#    newDict[k] = sampleDict[k]
+# print(newDict)
 
-newDict = {k: sampleDict[k] for k in keys}
-print(newDict)
+# newDict = {k: sampleDict[k] for k in keys}
+# print(newDict)
+
+
+
