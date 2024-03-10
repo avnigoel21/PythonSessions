@@ -176,3 +176,28 @@
 # print(s)
 # str="   hi          avni here " 
 
+# spam = 'SpamSpamBaconSpamEggsSpamSpam'
+
+# print(spam.strip('apS'))
+
+# s = ord('B')
+# print(s)
+
+
+# import pyperclip
+
+# str = "hi, avni here"
+
+# pyperclip.copy(str)
+# pyperclip.paste()
+
+# str1 = "my isname isisis jameis isis bond";
+# sub = "is";
+# print(str1.count("is"  , 4 ))
+
+s1 = str("a")
+s2 = "a"
+if (s1 == s2):
+    print("yes")
+
+str = " hi avni !" 
