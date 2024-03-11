@@ -51,23 +51,37 @@ import re
 
 # *
 
-regex = re.compile(r'Bat(wo)*man')
+# regex = re.compile(r'Bat(wo)*man')
 
-a = regex.search("The Adventures of Batman")
-print(a.group())
+# a = regex.search("The Adventures of Batman")
+# print(a.group())
 
-b = regex.search("The Adventures of Batwoman")
-print(b.group())
+# b = regex.search("The Adventures of Batwoman")
+# print(b.group())
 
-c = regex.search("The Adventures of Batwowowowoman")
-print(c.group())
+# c = regex.search("The Adventures of Batwowowowoman")
+# print(c.group())
 
-d = regex.search("The Adventures of manBat")
-print(d.group())
-
-
+# d = regex.search("The Adventures of manBat")
+# print(d.group())
 
 
 
 
+# text = ''' Say you want to find an American phone number in a 45 string. You know the pattern if you’re American: three numbers, a hyphen, three numbers, a hyphen, and four numbers.
+# 9876543210 Here’s an example: 415-555-4242.'''
+
+# pattern = '\d{3}\-\d{3}-\d{4}|\d{2}'
+
+# matches = re.findall(pattern, text)
+# print(matches)
+
+
+text = ''' Say you-you want to find an American phone number in a 45 string. you know the pattern if you’re American: three numbers, a hyphen, three numbers, a hyphen, and four numbers.
+9876543210 Here’s an example: 415-555-4242.'''
+
+pattern = 'you-you'
+
+match = re.search(pattern, text)
+print(match.group(1))
 
