@@ -77,11 +77,27 @@ import re
 # print(matches)
 
 
-text = ''' Say you-you want to find an American phone number in a 45 string. you know the pattern if you’re American: three numbers, a hyphen, three numbers, a hyphen, and four numbers.
-9876543210 Here’s an example: 415-555-4242.'''
+# text = ''' Say you-you want to find an American phone number in a 45 string. you know the pattern if you’re American: three numbers, a hyphen, three numbers, a hyphen, and four numbers.
+# 9876543210 Here’s an example: 415-555-4242.'''
 
-pattern = 'you-you'
+# pattern = 'you'
 
-match = re.search(pattern, text)
-print(match.group(1))
+# match = re.search(pattern, text)
+# print(match.group(1))
+
+
+text = "The gross cost of operating lease vehicles in fY2021 Q1 was $4.87 billion. In previous quarter i.e FY2020 Q4 it was $3 billion."
+
+# pattern = "FY(\d{4} Q[1-4])"
+
+# matches = re.findall(pattern, text, flags=re.IGNORECASE)
+# print(matches)
+
+
+pattern = "\$([0-9\.]+)"
+matches = re.findall(pattern, text, flags=re.IGNORECASE)
+print(matches)
+
+
+
 
